@@ -8,6 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CalculatorViewController : UIViewController
+#import "CalculatorBrain.h"
 
+@interface CalculatorViewController : UIViewController
+/*
+{
+    IBOutlet UILabel *display;  // outlet
+    CalculatorBrain *brain;
+}
+
+- (IBAction)digiPressed:(UIButton *)sender;
+- (IBAction)operationPressed:(UIButton *)sender;
+*/
+
+@property (weak, nonatomic) IBOutlet UILabel *display;
+
+@property (weak, nonatomic) IBOutlet UILabel *displayOutput;
 @end

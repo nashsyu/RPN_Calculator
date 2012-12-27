@@ -18,6 +18,9 @@
 		72C7371416805EC4007651A3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C7371316805EC4007651A3 /* Default-568h@2x.png */; };
 		72C7371716805EC4007651A3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C7371516805EC4007651A3 /* MainStoryboard.storyboard */; };
 		72C7371A16805EC4007651A3 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C7371916805EC4007651A3 /* CalculatorViewController.m */; };
+		72C737261681BF5D007651A3 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C737251681BF5D007651A3 /* CalculatorBrain.m */; };
+		D2015CE3168BE4BB004E2F2F /* icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = D2015CE2168BE4BB004E2F2F /* icon_57x57.png */; };
+		D2015CE6168BE4FA004E2F2F /* icon_114x114 .png in Resources */ = {isa = PBXBuildFile; fileRef = D2015CE5168BE4FA004E2F2F /* icon_114x114 .png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		72C7371616805EC4007651A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		72C7371816805EC4007651A3 /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		72C7371916805EC4007651A3 /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		72C737241681BF5D007651A3 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		72C737251681BF5D007651A3 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
+		D2015CE2168BE4BB004E2F2F /* icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57x57.png; sourceTree = "<group>"; };
+		D2015CE5168BE4FA004E2F2F /* icon_114x114 .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_114x114 .png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,8 @@
 		72C736EE16805EC4007651A3 = {
 			isa = PBXGroup;
 			children = (
+				D2015CE5168BE4FA004E2F2F /* icon_114x114 .png */,
+				D2015CE2168BE4BB004E2F2F /* icon_57x57.png */,
 				72C7370316805EC4007651A3 /* Calculator */,
 				72C736FC16805EC4007651A3 /* Frameworks */,
 				72C736FA16805EC4007651A3 /* Products */,
@@ -86,6 +95,8 @@
 				72C7370C16805EC4007651A3 /* CalculatorAppDelegate.h */,
 				72C7370D16805EC4007651A3 /* CalculatorAppDelegate.m */,
 				72C7371516805EC4007651A3 /* MainStoryboard.storyboard */,
+				72C737241681BF5D007651A3 /* CalculatorBrain.h */,
+				72C737251681BF5D007651A3 /* CalculatorBrain.m */,
 				72C7371816805EC4007651A3 /* CalculatorViewController.h */,
 				72C7371916805EC4007651A3 /* CalculatorViewController.m */,
 				72C7370416805EC4007651A3 /* Supporting Files */,
@@ -164,6 +175,8 @@
 				72C7371216805EC4007651A3 /* Default@2x.png in Resources */,
 				72C7371416805EC4007651A3 /* Default-568h@2x.png in Resources */,
 				72C7371716805EC4007651A3 /* MainStoryboard.storyboard in Resources */,
+				D2015CE3168BE4BB004E2F2F /* icon_57x57.png in Resources */,
+				D2015CE6168BE4FA004E2F2F /* icon_114x114 .png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +190,7 @@
 				72C7370A16805EC4007651A3 /* main.m in Sources */,
 				72C7370E16805EC4007651A3 /* CalculatorAppDelegate.m in Sources */,
 				72C7371A16805EC4007651A3 /* CalculatorViewController.m in Sources */,
+				72C737261681BF5D007651A3 /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +307,7 @@
 				72C7371F16805EC4007651A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
